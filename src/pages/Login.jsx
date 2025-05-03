@@ -10,7 +10,7 @@ const Login = () => {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  // const { user } = useSelector((state) => state.auth);
+
   const user = JSON.parse(localStorage.getItem("user"));
 
   const handleSubmit = (e) => {
